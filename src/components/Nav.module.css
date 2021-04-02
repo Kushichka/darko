@@ -1,0 +1,14 @@
+nav {
+    grid-area: n;
+    background-color: #888805;
+}
+
+.item a {
+    text-decoration: none;
+    text-transform: none;
+    color: wheat;
+}
+
+.item a:hover {
+    color:white;
+}

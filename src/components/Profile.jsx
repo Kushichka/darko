@@ -1,10 +1,11 @@
 import React from "react";
+import style from "./Profile.module.css";
 
 const Profile = () => {
     return (
-        <div className="content">
+        <div className={style.content}>
             <div>
-                <img className="content-img" src="https://fregataero.ru/images/tours/tours/2594.jpg" alt="image" />
+                <img className={style.content_img} src="https://fregataero.ru/images/tours/tours/2594.jpg" alt="" />
             </div>
             <div>
                 ava + description

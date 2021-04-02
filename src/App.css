@@ -10,28 +10,3 @@
     margin: 0 auto;
 }
 
-.logo {
-    height: 50px;
-    width: 50px;
-}
-
-header {
-    grid-area: h;
-    background-color: green;
-}
-
-nav {
-    grid-area: n;
-    background-color: #888805;
-}
-
-.content {
-    grid-area: c;
-    background-color: #5f5fb5;
-}
-
-.content-img {
-    width: 100%;
-    height: 200px;
-}
-
