@@ -1,9 +1,13 @@
+import React from "react";
 import './App.css';
+import Header from "./Header";
+import Tech from "./Tech";
 
 const App = () => {
   return (
     <div>
-      Hello World
+      <Header />
+      <Tech />
     </div>
   );
 }
