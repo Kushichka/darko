@@ -12,3 +12,6 @@ nav {
 .item a:hover {
     color:white;
 }
+.item a.active {
+    color: white;
+}

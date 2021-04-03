@@ -4,9 +4,9 @@ import MyPosts from "./myPosts/MyPosts";
 
 const Profile = () => {
     return (
-        <div className={style.content}>
+        <div>
             <div>
-                <img className={style.content_img} src="https://fregataero.ru/images/tours/tours/2594.jpg" alt="" />
+                <img className={style.img} src="https://fregataero.ru/images/tours/tours/2594.jpg" alt="" />
             </div>
             <div>
                 ava + description
