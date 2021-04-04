@@ -9,7 +9,7 @@ import News from "./components/news/News";
 import Music from "./components/music/Music";
 import Settings from "./components/settings/Settings";
 
-//lesson 23
+//lesson 25
 
 const App = (props) => {
     return (
