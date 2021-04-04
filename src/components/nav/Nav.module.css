@@ -7,6 +7,7 @@ nav {
     text-decoration: none;
     text-transform: none;
     color: wheat;
+    padding: 10px;
 }
 
 .item a:hover {
