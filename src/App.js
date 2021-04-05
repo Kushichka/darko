@@ -9,7 +9,7 @@ import News from "./components/news/News";
 import Music from "./components/music/Music";
 import Settings from "./components/settings/Settings";
 
-//lesson 25
+//lesson 28
 
 const App = (props) => {
     return (
@@ -18,8 +18,8 @@ const App = (props) => {
                 <Header/>
                 <Nav/>
                 <div className="app-wrapper-content">
-                    <Route path="/profile" component={Profile}/>
-                    <Route path="/dialogs" component={Dialogs}/>
+                    <Route path="/profile" render={ ()=> <Profile posts1={props.posts1} /> }/>
+                    <Route path="/dialogs" render={ ()=> <Dialogs dialogs1={props.dialogs1} messages1={props.messages1}/> }/>
                     <Route path="/news" component={News}/>
                     <Route path="/music" component={Music}/>
                     <Route path="/settings" component={Settings}/>
