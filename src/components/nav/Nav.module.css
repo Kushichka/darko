@@ -3,6 +3,16 @@ nav {
     background-color: #888805;
 }
 
+.item {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.item:hover {
+    background-color: #c9c903;
+    cursor: pointer;
+}
+
 .item a {
     text-decoration: none;
     text-transform: none;
